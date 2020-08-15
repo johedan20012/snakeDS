@@ -1,0 +1,15 @@
+#Pone la salida como graficos en formato de bitmap
+-gb
+
+#Pone la cantidad de bits por pixel a 8 (256 colores)
+-gB8
+
+#Desactiva el mapa de tiles como parte de la salida
+-m!
+
+#Establece el color "0xFFFFFF" como el color transparente
+-gTFFFFFF
+
+
+#Solo devuelve los primeros 16 colores de la paleta
+-pe16
